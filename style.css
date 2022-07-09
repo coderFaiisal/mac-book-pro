@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+section {
+  width: 60%;
+  margin: 30px auto;
+}
+.spec {
+  display: flex;
+}
+.spec > p {
+  border: 2px solid rgb(183, 181, 181);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.spec > p:hover {
+  background-color: rgb(218, 213, 213);
+}
+table {
+  width: 400px;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+table td {
+  padding: 5px;
+}
+#total {
+  border-top: 1px solid black;
+  font-weight: bold;
+}
+#promo-code {
+  padding: 10px;
+  border: 1px solid rgb(161, 157, 157);
+  border-radius: 5px;
+}
+#promo-btn {
+  background-color: rgb(202, 85, 85);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}

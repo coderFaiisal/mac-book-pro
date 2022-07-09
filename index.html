@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+      <h2>
+        Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency
+        cores, 7 cores GPU, and 16-core Neural Engine 8GB unified memory 256GB
+        SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard -
+        US English
+      </h2>
+    </section>
+
+    <section>
+      <div>
+        <h3>Memory:</h3>
+        <div class="spec">
+          <p id="default-memory">8GB Unified Memory</p>
+          <p id="extra-memory">16GB Unified Memory</p>
+        </div>
+      </div>
+      <div>
+        <h3>Storage:</h3>
+        <div class="spec">
+          <p id="default-storage">256GB SSD storage</p>
+          <p id="extra-512-storage">512GB SSD storage</p>
+          <p id="extra-1t-storage">1TB SSD storage</p>
+        </div>
+      </div>
+      <div>
+        <h3>Choose Your Delivery Option:</h3>
+        <div class="spec">
+          <p id="free-delivery">Friday, Aug 25 Free Prime Delivery</p>
+          <p id="charge-delivery">Friday, Aug 21 Delivery Charge 20$</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <table>
+          <tr>
+            <td>Best Price</td>
+            <td>$<span id="base-price">1299</span></td>
+          </tr>
+          <tr>
+            <td>Extra Memory Cost</td>
+            <td>$<span id="memory-cost">0</span></td>
+          </tr>
+          <tr>
+            <td>Extra Storage Cost</td>
+            <td>$<span id="storage-cost">0</span></td>
+          </tr>
+          <tr>
+            <td>Delivery Charge</td>
+            <td>$<span id="delivery-cost">0</span></td>
+          </tr>
+          <tr id="total">
+            <td>Total Price</td>
+            <td>$<span id="total-price">1299</span></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <form action="">
+          <label for="promo-code">Add Promo Code: </label>
+          <input
+            type="text"
+            placeholder="Enter Your Promo Code"
+            id="promo-code"
+          />
+          <input id="promo-btn" type="button" value="Apply" />
+        </form>
+      </div>
+    </section>
+    <section>
+      <h1>Total: $ <span id="final-total">1299</span></h1>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="app.js"></script>
+  </body>
+</html>
